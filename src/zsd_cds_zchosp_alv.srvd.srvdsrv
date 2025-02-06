@@ -1,0 +1,4 @@
+@EndUserText.label: 'service definition CENTROS HOSPITALARIOS'
+define service ZSD_CDS_ZCHOSP_ALV {
+  expose ZCDS_ZCHOSP_ALV;
+}

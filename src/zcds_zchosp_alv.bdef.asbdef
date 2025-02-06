@@ -1,0 +1,18 @@
+managed implementation in class zbp_cds_zchosp_alv unique;
+strict ( 2 );
+
+define behavior for ZCDS_ZCHOSP_ALV //alias <alias_name>
+persistent table zchosp_alv
+lock master
+authorization master ( instance )
+
+//etag master <field_name>
+{
+ create;
+ update;
+ delete;
+ //field ( readonly ) ID_CENTRO;
+
+  //determination setAccountNumber on save {create; }
+
+}

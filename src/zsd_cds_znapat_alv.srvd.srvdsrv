@@ -1,0 +1,4 @@
+@EndUserText.label: 'service definition PACIENTES'
+define service ZSD_CDS_ZNAPAT_ALV {
+  expose ZCDS_ZNAPAT_ALV;
+}

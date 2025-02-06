@@ -1,0 +1,14 @@
+managed implementation in class zbp_cds_znapat_alv unique;
+strict ( 2 );
+
+define behavior for ZCDS_ZNAPAT_ALV //alias <alias_name>
+persistent table znapat_alv
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+  //field ( readonly ) id_paciente;
+}
